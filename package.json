@@ -1,0 +1,13 @@
+{
+    "name": "cortex-emu",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Portable ARM Cortex-M emulator — C library with bare-metal WASM build",
+    "scripts": {
+        "build": "node scripts/build.js",
+        "build:clean": "node scripts/build.js --clean",
+        "test": "node scripts/test.js",
+        "test:skip-build": "node scripts/test.js --skip-build"
+    },
+    "license": "MIT"
+}
