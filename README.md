@@ -1,6 +1,6 @@
 # cortex-emu — Portable ARM Cortex-M Emulator (C/C++ / WASM)
 
-A standalone, dependency-free C99 library that emulates ARM Cortex-M0, M0+, M3, and M4 microcontrollers. Compiled either as a native static library or (via Emscripten) as a WebAssembly module.
+A standalone, dependency-free C99 library that emulates ARM Cortex-M0, M0+, M3, and M4 microcontrollers. Compiled either as a native static library or as a WebAssembly module via bare-metal LLVM (clang + wasm-ld).
 
 ## Features
 
