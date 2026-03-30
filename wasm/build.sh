@@ -66,7 +66,7 @@ for src in "${SOURCES[@]}"; do
     obj="$OUT_DIR/$(basename "$src" .c).o"
     "$CLANG" \
         --target=wasm32-undefined-undefined-wasm \
-        -Wall -std=c++11 -nostdlib -O3 -flto \
+        -x c -Wall -std=c11 -nostdlib -O3 -flto \
         -fvisibility=default \
         -I"$SCRIPT_DIR/include" \
         -I"$REPO_DIR/include" \

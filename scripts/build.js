@@ -72,8 +72,9 @@ const OBJECTS = []
 
 const CFLAGS = [
     '--target=wasm32-undefined-undefined-wasm',
+    '-x', 'c',
     '-Wall',
-    '-std=c++11',
+    '-std=c11',
     '-nostdlib',
     '-O3',
     '-flto',
